@@ -1,0 +1,78 @@
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+
+
+    .home{
+        width:80px ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .home:hover{
+        background-color: green;
+    }
+    .about{
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .about:hover{
+        background-color: green;
+    }
+    .notifications{
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .notifications:hover{
+        background-color: green;
+    }
+    .help{
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .help:hover{
+        background-color: green;
+    }
+    .assignee{
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .assignee:hover{
+        background-color: green;
+    }
+}

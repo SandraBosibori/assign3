@@ -1,0 +1,111 @@
+.full{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+
+    .one{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+
+        .outer{
+            width:200px;
+            height:200px ;
+            background-color: yellow;
+            margin: 10px 10px 0px 10px;
+            display: flex;
+            justify-content: center;
+    
+            .preview{
+                width: 150px;
+                height: 150px;
+                border-radius: 100px;
+                background-color: green;
+                margin: 10px 10px 0px 10px;
+            }
+        }  
+    }
+
+    .two{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+
+        .outer{
+            width:200px;
+            height:200px ;
+            background-color: yellow;
+            margin: 10px 10px 0px 10px;
+            display: flex;
+            justify-content: center;
+    
+            .preview{
+                width: 150px;
+                height: 150px;
+                border-radius: 100px;
+                background-color: green;
+                margin: 10px 10px 0px 10px;
+            }   
+        }    
+    }
+
+    .three{
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+
+        .outer{
+            width:200px;
+            height:200px ;
+            background-color: yellow;
+            margin: 10px 10px 0px 10px;
+            display: flex;
+            justify-content: center;
+    
+            .preview{
+                width: 150px;
+                height: 150px;
+                border-radius: 100px;
+                background-color: green;
+                margin: 10px 10px 0px 10px;
+            }
+        }   
+    }
+
+
+    
+
+    
+
+    
+     
+}
+
+
+
+@media(max-width: 550px){
+    .full{
+
+        .logo{
+            width: 200px;
+            height: 200px;
+        }
+        .assign{
+            width:200px ;
+            height: 20px;
+        }
+        
+    }
+}

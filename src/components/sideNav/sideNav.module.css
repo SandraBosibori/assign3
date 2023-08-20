@@ -1,0 +1,47 @@
+.sideNav{
+    width: 10%;
+    height: 15vh;
+    background-color: rgb(29, 153, 29);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+
+    .services:hover{
+        color: white;
+    }
+    .services.a{
+        text-decoration: none;
+    }
+    
+    .assignees:hover{
+        color: white;
+    }
+    .assignees:a{
+        text-decoration: none;
+    }
+    .wallet:hover{
+        color: white;
+    }
+    .history:hover{
+        color: white;
+    }
+    .todo:hover{
+        color: white;
+    }
+}
+
+.arrow{
+    height: 15vh;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+Link{
+    text-decoration: none;
+}
