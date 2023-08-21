@@ -1,0 +1,20 @@
+.all{
+    width: 100%;
+}
+
+.todo{
+    width: 600px;
+    height: 10vh;
+    background-color: rgb(91, 160, 91);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+}
+.icons{
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}

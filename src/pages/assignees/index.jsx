@@ -10,6 +10,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 config.autoAddCss = false
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import styles from './assignees.module.css'
+import MainAssignees from '../../components/mainAssignees'
 
 
 export default function Assignees() {
@@ -20,7 +21,7 @@ export default function Assignees() {
     <Search/>
     <div className={styles.full}>
       <SideNav/>
-
+      <MainAssignees/>
       
     </div>
     </>

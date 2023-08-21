@@ -14,7 +14,7 @@ const SideNav=()=>{
     return(
         <>
             <div className={collapsed ? styles.sideNav: styles.hidden}>
-                <div className={styles.services}><Link style={{ textDecoration: 'none' }} to='/services'>Services</Link></div>
+                <div className={styles.services}><Link style={{ textDecoration: 'none'}} to='/services'>Services</Link></div>
                 <div className={styles.assignees}><Link to='/assignees'>Assignees</Link></div>
                 <div className={styles.wallet}><Link to='/wallet'>Wallet</Link></div>
                 <div className={styles.history}><Link to='/history'>History</Link></div>

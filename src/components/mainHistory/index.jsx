@@ -1,6 +1,6 @@
 import styles from './mainHistory.module.css'
 
-const MainAssignees=()=>{
+const MainHistory=()=>{
     return(
         <>
         <div className={styles.main}>
@@ -10,4 +10,4 @@ const MainAssignees=()=>{
         </>
     )
 }
-export default MainAssignees
+export default MainHistory 
