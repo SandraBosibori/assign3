@@ -1,6 +1,6 @@
 .full{
-    width: 80%;
-    height: 80vh;
+    width: 90%;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -33,6 +33,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                color: black;
             }
         }  
     }
@@ -45,8 +46,8 @@
         margin-bottom: 30px;
 
         .outer{
-            width:200px;
-            height:200px ;
+            width:320px;
+            height:310px ;
             background-color: yellow;
             margin: 10px 10px 0px 10px;
             display: flex;
@@ -63,28 +64,19 @@
     }
 
     .three{
-        height: 50vh;
+        width: 30%;
+        height: 30vh;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 30px;
+        background-color: yellow;
 
-        .outer{
-            width:200px;
-            height:200px ;
-            background-color: yellow;
-            margin: 10px 10px 0px 10px;
-            display: flex;
-            justify-content: center;
-    
-            .preview{
-                width: 150px;
-                height: 150px;
-                border-radius: 100px;
-                background-color: green;
-                margin: 10px 10px 0px 10px;
-            }
-        }   
+        .taskImage{
+            width: 200px;
+            height: 100px;
+        }
+        
     }
 
 

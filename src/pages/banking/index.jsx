@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
-import styles from './MainAssignees.module.css'
+import styles from './banking.module.css'
 import user from '../../assets/user.png'
 
 
 
-const MainAssignees=(selected)=>{
+const Banking=(selected)=>{
     const [assignees, setAssignes] = useState([])
     const fetchAssignees = async ()=>{
         const response = await fetch("https://assigndata.onrender.com/")
@@ -23,9 +23,12 @@ const MainAssignees=(selected)=>{
       
     
     return(
-        <>
+        <section className={styles.all}>
+        <h1>Banking</h1>
         <div className={styles.main}>
-            {assignees.map((assignee)=>{
+            {assignees
+            .filter(assignee => assignee.task?.includes('banking'))
+            .map((assignee)=>{
                 return(
                     <div className={styles.data}>
                         <div key={assignee._id}>
@@ -49,7 +52,7 @@ const MainAssignees=(selected)=>{
 
         </div>
         
-        </>
+        </section>
     )
 }
-export default MainAssignees
+export default Banking

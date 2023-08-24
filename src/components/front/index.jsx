@@ -1,10 +1,10 @@
 import MainAssignees from '../mainAssignees'
 import styles from './front.module.css'
 import { useState, useEffect } from 'react'
-// import {taskImage} from '../../assets/taskimage.png'
+import taskImage from '../../assets/taskimage.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-// import {user} from '../../assets/user.png'
+import user from '../../assets/user.png'
 
 
 
@@ -35,16 +35,18 @@ const Front=()=>{
                 <p>Choose an assignee to run your errand</p>
                 <div className={styles.two}>
                 <div className={styles.main}>
-            {assignees.map((assignee)=>{
+                {
+                    assignees.filter(item => item.tasks && item.tasks.includes('writing'))
+                .map((item)=>{
                 return(
                     <div className={styles.data}>
-                        <div key={assignee._id}>
-                            <div className={styles.image}></div>
-                        <div>Name: {assignee.name}</div>
-                        <div>Age: {assignee.age}</div>
-                        <div>Location: {assignee.location}</div>
-                        <div>Description: {assignee.description}</div>
-                        <div>Tasks: {assignee.task}</div>
+                        <div key={item._id}>
+                        <div className={styles.image}><img className={styles.image} src={user} alt="user"/> </div>
+                        <div>Name: {item.name}</div>
+                        <div>Age: {item.age}</div>
+                        <div>Location: {item.location}</div>
+                        <div>Description: {item.description}</div>
+                        <div>Tasks: {item.task}</div>
                     </div>
           
         </div>
@@ -54,9 +56,9 @@ const Front=()=>{
 
         </div>
                 </div>
-                <p>Don't forget any task</p>
+                <p>Don't forget any task, write it down</p>
                 <div className={styles.three}>
-                {/* <img className={styles.image} src={taskImage} alt="taskImage"/> */}
+                <img className={styles.taskImage} src={taskImage} alt="taskImage"/>
                 </div>
                 
                 
@@ -70,4 +72,3 @@ const Front=()=>{
 }
 export default Front
 
-// <img className={styles.image} src={taskImage} alt="taskImage"/>

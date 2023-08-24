@@ -24,8 +24,11 @@ function App() {
       
       <div className='full'>
         <SideNav/>
+        {results.length > 0 ? (
         <SearchPage results={results}/>
+        ) : (
         <Front/>
+        )}
       </div>
 
     </div>

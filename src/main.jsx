@@ -11,6 +11,8 @@ import TodoApp from './pages/todoApp/index.jsx'
 import OneService from './pages/oneService/index.jsx'
 import Login from './pages/login/index.jsx'
 import Welcome from './pages/welcome/index.jsx'
+import Banking from './pages/banking/index.jsx'
+
 
 
 
@@ -53,6 +55,10 @@ const routes= createBrowserRouter([
   {
     path: '/welcome',
     element: <Welcome/>
+  },
+  {
+    path: '/banking',
+    element: <Banking/>
   }
 
 

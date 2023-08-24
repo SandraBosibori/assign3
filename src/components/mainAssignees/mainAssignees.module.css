@@ -1,11 +1,14 @@
 .main{
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
+
     .data{
-        width:300px;
-        height:300px ;
+        width:320px;
+        height:330px ;
         background-color: yellow;
         margin: 10px 10px 0px 10px;
         display: flex;
@@ -14,10 +17,20 @@
 
         .image{
             width: 150px;
-                height: 150px;
-                border-radius: 100px;
-                background-color: green;
-                margin: 10px 10px 0px 10px;
+            height: 150px;
+            border-radius: 100px;
+            background-color: green;
+            margin: 10px 10px 0px 10px;
+            object-fit: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+           
         }
     }
+}
+
+.bottom{
+    margin: 5px;
 }

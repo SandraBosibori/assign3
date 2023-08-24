@@ -1,4 +1,6 @@
 import MainServices from "../../components/mainServices"
+import { useState, useEffect } from "react"
+import styles from '../../components/mainAssignees/mainAssignees.module.css'
 
 const OneService=()=>{
     const [assignees, setAssignes] = useState([])

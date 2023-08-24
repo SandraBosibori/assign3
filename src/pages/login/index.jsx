@@ -14,14 +14,14 @@ const supabase = createClient(supaBaseUrl, supaBaseAnonKey)
 const Login=()=>{
     const navigate= useNavigate()
     
-    supabase.auth.onAuthStateChange(async(event)=>{
-        if(event !== "SIGNED_OUT"){
-            navigate("/welcome")
-        }else{
-            navigate("/")
-        }
+    // supabase.auth.onAuthStateChange(async(event)=>{
+    //     if(event !== "SIGNED_OUT"){
+    //         navigate("/")
+    //     }else{
+    //         navigate("/")
+    //     }
 
-    })
+    // })
     return(
         <>
         <div className={styles.auth}>
