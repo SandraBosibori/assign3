@@ -12,6 +12,11 @@ import OneService from './pages/oneService/index.jsx'
 import Login from './pages/login/index.jsx'
 import Welcome from './pages/welcome/index.jsx'
 import Banking from './pages/banking/index.jsx'
+import Calls from './pages/calls/index.jsx'
+import Shopping from './pages/shopping/index.jsx'
+import Delivery from './pages/delivery/index.jsx'
+import Driving from './pages/driving/index.jsx'
+import Writing from './pages/writing/index.jsx'
 
 
 
@@ -59,7 +64,32 @@ const routes= createBrowserRouter([
   {
     path: '/banking',
     element: <Banking/>
+  },
+  {
+    path: '/calls',
+    element: <Calls/>
+  },
+  {
+    path: '/shopping',
+    element: <Shopping/>
+  },
+  {
+    path: '/delivery',
+    element: <Delivery/>
+  },
+  {
+    path: '/driving',
+    element: <Driving/>
+  },
+  {
+    path: '/shopping',
+    element: <Shopping/>
+  },
+  {
+    path: '/writing',
+    element: <Writing/>
   }
+
 
 
 

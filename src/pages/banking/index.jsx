@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import styles from './banking.module.css'
 import user from '../../assets/user.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -24,7 +25,10 @@ const Banking=(selected)=>{
     
     return(
         <section className={styles.all}>
-        <h1>Banking</h1>
+            <div><h1>Banking</h1></div>
+            <Link to='/services'><div className={styles.button}><button>Back to services</button></div></Link>
+        
+        
         <div className={styles.main}>
             {assignees
             .filter(assignee => assignee.task?.includes('banking'))
