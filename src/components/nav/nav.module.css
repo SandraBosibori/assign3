@@ -20,6 +20,10 @@
         cursor: pointer;
         text-decoration: none;
     }
+    .home a{
+        text-decoration: none;
+        color: black;
+    }
     .home:hover{
         background-color: green;
     }
@@ -37,7 +41,7 @@
         background-color: green;
     }
     .notifications{
-        width: 90px;
+        width: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -71,6 +75,10 @@
         margin: 5px;
         border-radius: 10px;
         cursor: pointer;
+    }
+    .assignee a{
+        text-decoration: none;
+        color: black;
     }
     .assignee:hover{
         background-color: green;

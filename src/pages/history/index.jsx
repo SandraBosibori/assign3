@@ -7,6 +7,7 @@ import style from './history.module.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
 config.autoAddCss = false
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import MainHistory from '../../components/mainHistory'
 
 
 
@@ -18,6 +19,7 @@ export default function History() {
     <Search/>
     <div className={style.full}>
       <SideNav/>
+      <MainHistory/>
       
       
     </div>

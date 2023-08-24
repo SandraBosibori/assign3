@@ -1,4 +1,5 @@
 .main{
+    width: 90%;
     
     
 
@@ -10,5 +11,8 @@
         margin: 50px;
         cursor: pointer;
     
+    }
+    .button :hover{
+        box-shadow: 50px 50px 50px 50px;
     }
 }

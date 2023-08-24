@@ -8,7 +8,9 @@ import Assignees from './pages/assignees/index.jsx'
 import Wallet from './pages/wallet/index.jsx'
 import History from './pages/history/index.jsx'
 import TodoApp from './pages/todoApp/index.jsx'
-import Authen from './pages/authen/index.jsx'
+import OneService from './pages/oneService/index.jsx'
+import Login from './pages/login/index.jsx'
+import Welcome from './pages/welcome/index.jsx'
 
 
 
@@ -41,9 +43,17 @@ const routes= createBrowserRouter([
     element: <TodoApp/>
   },
   {
-    path: '/authen',
-    element: <Authen/>
+    path: '/oneService',
+    element: <OneService/>
   },
+  {
+    path: '/login',
+    element: <Login/>
+  },
+  {
+    path: '/welcome',
+    element: <Welcome/>
+  }
 
 
 

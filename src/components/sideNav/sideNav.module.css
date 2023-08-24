@@ -7,26 +7,45 @@
     border-radius: 5px;
     text-decoration: none;
 
-    .services:hover{
-        color: white;
-    }
-    .services.a{
+    
+    .services a{
         text-decoration: none;
+        color: black;
+    }
+    .services a:hover{
+        color: white;
     }
     
-    .assignees:hover{
-        color: white;
-    }
-    .assignees:a{
+    .assignees a{
         text-decoration: none;
+        color: black;
     }
-    .wallet:hover{
+    .assignees a:hover{
         color: white;
     }
-    .history:hover{
+
+    .wallet a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .wallet a:hover{
         color: white;
     }
-    .todo:hover{
+
+    .history a{
+        text-decoration: none;
+        color: black;
+    }
+    .history a:hover{
+        color: white;
+    }
+
+    .todo a{
+        text-decoration: none;
+        color: black;
+    }
+    .todo a:hover{
         color: white;
     }
 }

@@ -12,6 +12,7 @@
     justify-content: space-between;
     flex-direction: row;
     padding: 5px;
+    cursor: pointer;
 }
 .icons{
     display: flex;
