@@ -7,6 +7,7 @@
     justify-content: space-between;
     padding: 0px 15px 0px 15px;
     background-color: black;
+    position: fixed;
 
     .image{
         width: 150px;
@@ -28,5 +29,21 @@
         text-decoration: none;
         color: white;
 
+    }
+}
+
+
+.signing{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    .button{
+        background-color: rgb(35, 139, 35);
+        color: white;
+        border-radius: 15px;
+        border-color: transparent;
+        width: 70px;
+        height: 30px;
     }
 }

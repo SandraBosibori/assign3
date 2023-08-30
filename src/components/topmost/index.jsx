@@ -14,10 +14,11 @@ const TopMost=()=>{
             <div className={styles.top}>
                 <div className={styles.images}>
                     <div>
-                        <img className={styles.image} src={assign} alt="logo"/>
+                        <Link to='/'><img className={styles.image} src={assign} alt="logo"/></Link>
                     </div>
-                    <div className={styles.link}>
-                        <Link to='/login'><FontAwesomeIcon icon={faUser} size='2xl' /></Link>
+                    <div className={styles.signing}>
+                        <Link to="/sajili" ><button className={styles.button}>Sign Up</button></Link>
+                        <button className={styles.button}>Login</button>
                     </div>
                     
                     

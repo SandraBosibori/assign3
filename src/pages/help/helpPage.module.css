@@ -1,0 +1,10 @@
+.helpContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
