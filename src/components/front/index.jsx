@@ -25,46 +25,10 @@ const Front=()=>{
     return(
         <>
             <section className={styles.full}>
-                <p>Get different types of errands run for you!</p>
-                <div className={styles.one}>
-                    
-                    <div className={styles.outer}><div className={styles.preview}>SHOPPING</div></div>
-                    <div className={styles.outer}><div className={styles.preview}>DELIVERY</div></div>
-                    <div className={styles.outer}><div className={styles.preview}>DRIVING</div></div>
-                </div>
-
-
-                <p>Choose an assignee to run your errand</p>
-                <div className={styles.two}>
-                <div className={styles.main}>
-            {assignees
-            .filter(assignee => assignee.task?.includes('writing'))
-            .map((assignee)=>{
-                return(
-                    <div className={styles.data}>
-                        <div key={assignee._id}>
-                        <div className={styles.image}><img className={styles.user} src={user} alt="user"/></div>
-                        <div>Name: {assignee.name}</div>
-                        <div>Age: {assignee.age}</div>
-                        <div>Location: {assignee.location}</div>
-                        <div>Description: {assignee.description}</div>
-                        <div>Tasks: {assignee.task}</div>
-                        
-                    </div>
+                <div className={styles.inner}></div>
+                
           
-        </div>
-                )
-            
-      })}
-
-        </div>
-                </div>
-
-
-                <p>Don't forget any task, write it down</p>
-                <div className={styles.three}>
-                <img className={styles.taskImage} src={taskImage} alt="taskImage"/>
-                </div>
+     
                 
                 
             </section>

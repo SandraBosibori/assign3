@@ -1,17 +1,26 @@
-import Search from '../search'
 import styles from './mainHome.module.css'
+import assign from '../../assets/assign.png'
+import tasksshot from '../../assets/tasksshot.png'
+import shopping from '../../assets/bags.png'
+import delivery from '../../assets/delivery.png'
+import driving from '../../assets/driving.png'
 
 const MainHome=()=>{
     return(
         <div className={styles.all}>
         <div className={styles.main}>
-            <div className={styles.text}>
-                <h1>Make your life easier by getting your errands done for you!</h1>
-            </div>
-            <div className={styles.search}>
-                <Search/>
-            </div>
+            <div className={styles.middle}>
+                <div className={styles.photo}>
+                    <img className={styles.image} src={assign} alt="logo"/>
+                </div>
 
+                <div className={styles.text}>
+                    <h1>Make Your Life Easier By Getting Your Errands Run For You!</h1>
+                </div>
+            </div>
+                
+
+           
         </div>
         <div className={styles.second}>
             <div className={styles.image}></div>
@@ -33,7 +42,7 @@ const MainHome=()=>{
            
         </div>
         <div className={styles.fourth}>
-            <div className={styles.image}></div>
+            <div className={styles.image}><img className={styles.tasksshot} src={tasksshot} alt='tasksshot'/></div>
             <div className={styles.words}>
                 <h1>Don't forget any task, write it down</h1>
                 <h2>Stay organized and never miss a task. Jot down all your to-dos to

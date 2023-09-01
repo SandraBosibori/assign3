@@ -7,6 +7,11 @@ import Search from './components/search'
 import SideNav from './components/sideNav'
 import Front from './components/front'
 import SearchPage from './components/searchPage'
+import { useContext } from "react"
+import { AuthContext } from "../src/context/authContext"
+import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+import { ThemeContext } from './context/themeContext'
 
 
 
@@ -16,8 +21,7 @@ function App() {
 
  
   return (
-    <div >
-      
+    <div  >
       <TopMost/>
       <Nav/>
       <Search setResults={setResults}/>

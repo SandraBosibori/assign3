@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+
 
     .search{
         width: 25%;
@@ -16,9 +16,6 @@
 
     }
 
-    .icon{
-        color: white;
-        background-color: black;
-    }
+    
 }
 

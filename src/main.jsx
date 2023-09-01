@@ -22,6 +22,7 @@ import HelpPage from './pages/help/index.jsx'
 import NewHome from './pages/newHome/index.jsx'
 import Sajili from './pages/sajili/index.jsx'
 import NewAssignee from './pages/newAssignee/index.jsx'
+import { ThemeProvider } from './context/themeContext.jsx'
 
 
 
@@ -121,8 +122,10 @@ const routes= createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <ThemeProvider>
     <AuthProvider>
      <RouterProvider router={routes}></RouterProvider>
      </AuthProvider>
+     </ThemeProvider>
   </React.StrictMode>,
 )

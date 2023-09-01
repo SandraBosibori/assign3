@@ -5,118 +5,14 @@
     flex-direction: column;
     align-items:center;
     justify-content:center;
-    background-color: black;
     color: white;
     margin-top: 70px;
 
-    .one{
-        height: 50vh;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 30px;
-
-        .outer{
-            width:200px;
-            height:200px ;
-            background-color: yellow;
-            margin: 10px 10px 0px 10px;
-            display: flex;
-            justify-content: center;
-    
-            .preview{
-                width: 150px;
-                height: 150px;
-                border-radius: 100px;
-                background-color: green;
-                margin: 10px 10px 0px 10px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: black;
-            }
-        }  
-    }
-
-    .two{
-        height: 50vh;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 30px;
-
-        .outer{
-            width:320px;
-            height:310px ;
-            background-color: yellow;
-            margin: 10px 10px 0px 10px;
-            display: flex;
-            justify-content: center;
-    
-            .preview{
-                width: 150px;
-                height: 150px;
-                border-radius: 100px;
-                background-color: green;
-                margin: 10px 10px 0px 10px;
-            }   
-        }    
-    }
-
-    .three{
-        width: 30%;
-        height: 30vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 30px;
-        background-color: yellow;
-
-        .taskImage{
-            width: 200px;
-            height: 100px;
-        }
-        
-    }
-
-
-    
-
-    
-
-    
-     
-}
-
-.main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-    .data{
-        width:200px;
-        height:200px ;
-        background-color: yellow;
-        margin: 10px 10px 0px 10px;
-        display: flex;
-        justify-content: center;
-        color: black;
-
-        .image{
-            width: 80px;
-            height: 80px;
-            border-radius: 100px;
-            background-color: green;
-            margin: 10px 10px 0px 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            .user{
-                width: 60px;
-                height: 60px;
-            }
-        }
+    .inner{
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(144, 177, 144);
+        border-radius: 100px;
     }
 }
 

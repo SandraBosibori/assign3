@@ -14,10 +14,10 @@ const Nav=()=>{
     return(
         <>
             <div className={styles.nav}>
-                <div className={styles.home}><Link to='/'><FontAwesomeIcon icon={faHouse} bounce />Home</Link></div>
-                <div className={styles.about}><FontAwesomeIcon icon={faCircleInfo} bounce />Help</div>
-                <div className={styles.notifications}><Link to='/newhome'><FontAwesomeIcon icon={faBell} bounce />Notifications</Link></div>
-                <div className={styles.assignee}><Link to='/newAssignee'><FontAwesomeIcon icon={faBriefcase} bounce />Assignee</Link></div>
+                <div className={styles.home}><Link to='/'><FontAwesomeIcon icon={faHouse}/>Home</Link></div>
+                <div className={styles.about}><FontAwesomeIcon icon={faCircleInfo}/>Help</div>
+                <div className={styles.notifications}><Link to='/newhome'><FontAwesomeIcon icon={faBell}/>Notifications</Link></div>
+                <div className={styles.assignee}><Link to='/newAssignee'><FontAwesomeIcon icon={faBriefcase}/>Assignee</Link></div>
             </div>
         </>
     )

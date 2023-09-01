@@ -6,8 +6,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 15px 0px 15px;
-    background-color: black;
     position: fixed;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+
 
     .image{
         width: 150px;
@@ -45,5 +46,14 @@
         border-color: transparent;
         width: 70px;
         height: 30px;
+        cursor: pointer;
+    }
+    .button2{
+        color: black;
+        border-radius: 15px;
+        border-color: transparent;
+        width: 70px;
+        height: 30px;
+        cursor: pointer;
     }
 }

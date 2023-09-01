@@ -27,10 +27,10 @@ const Search=({setResults})=>{
     }
     return(
         <>
-            <div className={styles.allsearch}>
+            <form className={styles.allsearch}>
             <input type="text" placeholder="Search" className={styles.search} onChange={(e)=> handleChange(e.target.value )}/>
-            <button className={styles.icon}><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
-            </div>
+            <FontAwesomeIcon icon={faMagnifyingGlass}/>
+            </form>
             
         </>
         
