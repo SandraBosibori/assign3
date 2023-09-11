@@ -1,0 +1,75 @@
+.top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+    position: fixed;
+    /* background-image: url('../../assets/waves.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size:cover; */
+    background-color: white;
+
+
+
+
+    .image{
+        width: 150px;
+        height:50px ;
+    }
+
+    
+    
+}
+
+.images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .link a{
+        text-decoration: none;
+        color: white;
+
+    }
+}
+
+
+.signing{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+    .button1{
+        color: black;
+        border-radius: 15px;
+        border-color: transparent;
+        width: 70px;
+        height: 30px;
+        cursor: pointer;
+        background-color: rgb(126, 206, 126);
+    }
+
+    .button{
+        background-color: rgb(35, 139, 35);
+        color: white;
+        border-radius: 15px;
+        border-color: transparent;
+        width: 70px;
+        height: 30px;
+        cursor: pointer;
+    }
+    .button2{
+        color: black;
+        border-radius: 15px;
+        border-color: transparent;
+        width: 70px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
